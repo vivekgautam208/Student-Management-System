@@ -1,3 +1,8 @@
+app.get('/', (req, res) => {
+  // Login पेज या कोई और होम पेज दिखाएं
+  res.render('login'); // या जो भी आपका होम पेज है
+});
+
 const router = require('express').Router();
 
 // const { adminRegister, adminLogIn, deleteAdmin, getAdminDetail, updateAdmin } = require('../controllers/admin-controller.js');
