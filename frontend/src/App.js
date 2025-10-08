@@ -1,3 +1,8 @@
+
+app.get('/', (req, res) => {
+  // Login पेज या कोई और होम पेज दिखाएं
+  res.render('login'); // या जो भी आपका होम पेज है
+});
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import { useSelector } from 'react-redux';
